@@ -18,7 +18,24 @@ def is_prime(num):
     return True
 
 def print_prime_factors(num):
-    pass
+    first_factor = True
+    x = num
+    divisor = 2
+    print(num, "= ", end = "")
+    while divisor <= num:
+        while x % divisor == 0:
+            if not first_factor:
+                print("*", end=" ")
+            print(divisor, end = " ")
+            x = x // divisor
+            first_factor = False
+        divisor += 1
+
+
+
+
+
+
 
 
 

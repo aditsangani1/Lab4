@@ -20,7 +20,7 @@ def is_prime(num):
 def print_prime_factors(num):
     pass
 
-print(fibonacci(3))
+
 
 
 
